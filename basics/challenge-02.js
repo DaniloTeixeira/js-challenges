@@ -1,5 +1,5 @@
 /* 
-    Create a function that takes a parameter and returns the type of it
+    Crie uma função que recebe um parâmetro e retorna o tipo dele
 */
 
 function getType(value) {
