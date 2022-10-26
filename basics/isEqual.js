@@ -6,4 +6,4 @@ function isEqual(a, b) {
     return a === b;
 };
 
-console.log(isEqual(1, '1'));
+console.log(isEqual(2, '2'));
