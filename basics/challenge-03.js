@@ -13,8 +13,8 @@
     - E para finalizar, faça o resultado elevado a potência de "f"
 */
 
-function mathOperators(a, b, c, d, e, f) {
+function arithmeticOperations(a, b, c, d, e, f) {
     return ((((a + b) - c) * d) / e) ** f;
 }
 
-console.log(mathOperators(6, 2, 3, 4, 5, 2));
+console.log(arithmeticOperations(6, 2, 3, 4, 5, 2));

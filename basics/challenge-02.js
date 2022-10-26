@@ -2,8 +2,12 @@
     Crie uma função que recebe um parâmetro e retorna o tipo dele
 */
 
-function getType(value) {
+function getPharameterType(value) {
     return typeof (value);
 }
 
-console.log(getType(true));
+console.log(getPharameterType(true));
+console.log(getPharameterType('false'));
+console.log(getPharameterType(5));
+console.log(getPharameterType({}));
+console.log(getPharameterType([ 'Hello World' ]));
