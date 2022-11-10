@@ -1,8 +1,12 @@
 /* 
- Crie uma função que recebe suas strings como parâmetro (a, b), e retorna o número de vezes que a string "a" aparece dentro de "b"
+    Escreva uma função que recebe um número como parâmetro. 
+    Se o número for par, retorna true e se for ímpar, retorna false.
+
 */
 
-function findPharameterAInB(a, b) {
-    return String(b).substring;
+function isEvenNumber(number) {
+    return number % 2 === 0;
 }
+
+console.log(isEvenNumber(9))
 
